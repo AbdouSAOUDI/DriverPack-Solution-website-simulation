@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-	//$('.loading').delay (1000).slideUp();
+	$('.loading').delay (1000).slideUp();
 	//alert($('.section4 .right p').css('font-size'));
 });
 
