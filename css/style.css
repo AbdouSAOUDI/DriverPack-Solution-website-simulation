@@ -18,7 +18,7 @@ a {
 	text-decoration: none;
 }
 .loading {
-	/*display: none;*/
+	display: none;
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -87,7 +87,7 @@ header .headerBottom p {
 	margin: 0 auto;
 	color: #f7f7f7;
 	font-size: 15pt;
-	margin-bottom: 15px;;
+	margin-bottom: 15px;
 }
 .installButton img {
 	height: 20px;
@@ -220,12 +220,12 @@ section {
 .section4 .right p span {
 	color: #2aa751;
 }
-.section4 .right .video {
+.section4 .right iframe {
 	width: 100%;
 	height: 350px;
 	margin-top: 70px;
 	background-color: #3baf4e;
-	border: 10px solid #FFF;
+	border: 20px solid #FFF;
 	box-shadow: #bbbbbb 0 0 40px;
 }
 /************************************/
@@ -439,6 +439,122 @@ section {
 	background-image: url(../img/landing-wizard-bg.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
+	color: #a9b0bc;
+	text-align: center;
+	padding-bottom: 0;
 }
-/*
-*/
+.section11 h3 {
+	font-size: 25pt;
+}
+.section11 article {
+	width: 230px;
+	display: inline-block;
+	margin: 100px 67px;
+	vertical-align: top;
+	opacity: 0;
+}
+.section11 article img {
+	width: 100px;
+	display: block;
+	margin: 0 auto 20px auto;
+}
+.section11 article p {
+	font-size: 15pt;
+	font-weight: lighter;
+	opacity: 0;
+}
+/************************************/
+.section12 {
+	padding-top: 0;
+}
+.section12 button {
+	display: block;
+	margin: 0 auto 50px auto;
+	color: #FFF;
+	font-size: 40pt;
+	padding: 0px 150px;
+	font-weight: bolder;
+	text-shadow: black 0px 0px 10px;
+	border: none;
+	border-radius: 10px;
+	background-color: #3e5a99;
+}
+.section12 button:hover {
+	opacity: 0.7;
+	border-radius: 5px;
+}
+/************************************/
+footer {
+	padding: 40px 0;
+	height: 500px;
+	color: #7f8080;
+	background-color: #f7f7f7;
+}
+.footerTopP {
+	display: block;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.footerTopP a {
+	color: #1695e2;
+}
+.footerTopP a:hover {
+	color: #f3bb00;
+}
+footer nav {
+	display: block;
+	margin-bottom: 210px;
+}
+footer nav ul {
+	width: 366px;
+	display: inline-block;
+	float: left;
+}
+footer nav ul li {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 10pt;
+}
+footer ul li a {
+	color: #7f8080;
+	display: block;
+}
+footer ul li a:hover {
+	color: #1695e2;
+}
+footer hr {
+	margin: 50px 0;
+}
+footer .footerBottom div {
+	width: 366px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	filter: 
+}
+footer .footerBottom .left p {
+	padding: 40px 0;
+	font-size: 10pt;
+}
+footer .footerBottom .middle button {
+	width: 200px;
+	height: 40px;
+	border: 2px solid #7f8080;
+	border-radius: 5px;
+	color: #7f8080;
+	background: none;
+	display: block;
+	margin: 15px auto;
+	font-size: 11pt;
+}
+footer .footerBottom .middle button img {
+	height: 18px;
+	float: left;
+	margin: 1px 20px;
+}
+
+footer .footerBottom .middle button:hover {
+	border-color: #1695e2;
+	color: #1695e2;
+}

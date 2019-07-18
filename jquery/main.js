@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-	$('.loading').delay (1000).slideUp();
+	//$('.loading').delay (1000).slideUp();
 	//alert($('.section4 .right p').css('font-size'));
 });
 
@@ -16,6 +16,16 @@ $('.section1 .art .middle').css ('margin-left', sec1ArtMargin);
 var sec6ImgWidth = $('.section6 ul li a img').width ();
 var sec6A = $('.section6 ul li a');
 
-$('.position img').click (function () {
-	$(this).fadeOut (1000).parent ().slideUp (1000);
+$('.section11').bind ('mouseenter mousemove hover', function () {
+	//$(this).find('img').animate({ 'width': 100 }, 500);
+	$('.section11 .n1').animate ({ 'opacity' : 1 }, 500, function () {
+		$(this).find('p').animate ({ 'opacity' : 1 }, 500);
+		$('.section11 .n2').animate ({ 'opacity' : 1}, 500, function () {
+			$(this).find('p').animate ({ 'opacity' : 1 }, 500);
+			$('.section11 .n3').animate({ 'opacity' : 1 }, 500, function () {
+				$(this).find('p').animate({ 'opacity' : 1 }, 500);
+				//alert ('');
+			});
+		});
+	});
 });
