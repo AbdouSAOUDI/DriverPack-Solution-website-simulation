@@ -17,6 +17,7 @@ ul li {
 a {
 	text-decoration: none;
 }
+/************************************/
 .loading {
 	display: none;
 	position: fixed;
@@ -30,7 +31,39 @@ a {
 	top: 40%;
 	left: 40%;
 }
+/************************************/
+.website {
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	top: 0;
+	left: 0;
+	display: block;
+	background-color: #002f80;
+}
+.website p {
+	display: inline-block;
+	color: #a09fa1;
+	margin: 10px 0 0 30px;
+}
+.website p span {
+	color: #1695e2;
+	margin-right: 60px;
+}
+.website a {
+	padding: 3px 20px;
+	border: 2px solid #a09fa1;
+	color: #a09fa1;
+	float: right;
+	margin: 5px 20px;
+}
+.website a:hover {
+	color: #1695e2;
+	border-color: #1695e2;
+}
+/************************************/
 header {
+	margin-top: 40px;
 	max-height: 760px;
 	background-image: url(../img/header-bg.jpg);
 }
